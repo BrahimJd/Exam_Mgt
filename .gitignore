@@ -34,3 +34,5 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+app/constants/QuestionEditor.js
+app/shared/components/ExamProgress.js
