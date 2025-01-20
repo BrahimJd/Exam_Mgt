@@ -4,6 +4,8 @@
 
 This is a React Native application designed to manage exams for both students and instructors. The app allows instructors to create exams, view results, and analyze student performance. Students can take exams, view their results, and review their answers.
 
+---
+
 ## Features
 
 ### Authentication
@@ -23,6 +25,8 @@ This is a React Native application designed to manage exams for both students an
 - **Dashboard**: View a list of created exams with statistics like average score and number of students.
 - **Create Exam**: Create new exams with multiple questions and options.
 - **View Results**: View detailed statistics and individual results for each exam.
+
+---
 
 ## Installation
 
@@ -49,6 +53,8 @@ This is a React Native application designed to manage exams for both students an
    - Use the Expo Go app on your mobile device to scan the QR code.
    - Alternatively, run on an emulator or simulator.
 
+---
+
 ## Database
 
 The app uses SQLite for local storage. The database is initialized with the following tables:
@@ -58,6 +64,8 @@ The app uses SQLite for local storage. The database is initialized with the foll
 - **questions**: Stores questions for each exam (text, options, correctOption).
 - **results**: Stores exam results (studentId, examId, score, answers, timeSpent).
 - **quiz_progress**: Stores progress for ongoing exams (userId, examId, answers, timeLeft).
+
+---
 
 ## Components
 
@@ -77,6 +85,8 @@ The app uses SQLite for local storage. The database is initialized with the foll
 ### Hooks
 
 - **useLogoutNavigation**: Handles logout functionality with navigation.
+
+---
 
 ## Screens
 
@@ -98,6 +108,8 @@ The app uses SQLite for local storage. The database is initialized with the foll
 - **CreateExam**: Screen to create new exams.
 - **ViewResults**: Screen to view detailed exam results and statistics.
 
+---
+
 ## Navigation
 
 The app uses `@react-navigation/native` for navigation. The main navigation stack is defined in `App.js` with the following routes:
@@ -111,9 +123,13 @@ The app uses `@react-navigation/native` for navigation. The main navigation stac
 - **CreateExam**: Route for creating exams.
 - **ViewResults**: Route for viewing exam results.
 
+---
+
 ## Styling
 
 The app uses a consistent color scheme defined in `app/constants/theme.js`. Styles are defined using `StyleSheet` in each component.
+
+---
 
 ## Dependencies
 
