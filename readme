@@ -124,7 +124,6 @@ The app uses `@react-navigation/native` for navigation. The main navigation stac
 - **ViewResults**: Route for viewing exam results.
 
 ---
-
 ## Styling
 
 The app uses a consistent color scheme defined in `app/constants/theme.js`. Styles are defined using `StyleSheet` in each component.
