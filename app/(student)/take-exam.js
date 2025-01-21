@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Alert, StyleSheet, TouchableOpacity } from "react-native";
+import { Alert, StyleSheet, TouchableOpacity,View,Text,Alert,StyleSheet,TouchableOpacity } from "react-native";
 import { useAuth } from "../shared/contexts/AuthContext";
 import { useResults } from "../shared/contexts/ResultsContext";
 import LoadingSpinner from "../shared/components/LoadingSpinner";
